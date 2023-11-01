@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0;
+}
+
+.maincontain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #273047;
+}
+
+.base {
+    margin: auto;
+    border: 2px solid black;
+    height: 70vh;
+    width: 400px;
+    display: flex;
+    padding-top: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    background-color: gray;
+    box-shadow: rgb(45, 45, 45) 10px 10px, rgb(18, 17, 32) 20px 20px 50px;
+}
+
+.screen {
+    width: 90%;
+    height: 15%;
+    background-color: gray;
+    border: 2px black solid;
+    border-radius: 15px;
+    background-color: rgb(2, 20, 2);
+    box-shadow: rgb(53, 53, 53) 2px -2px inset;
+}
+
+.buttoncontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 370px;
+    gap: 12px;
+    margin: auto;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: black 3px 3px;
+}
+
+button:active {
+    background-color: rgb(148, 145, 172);
+    transform: translateY(4px);
+    box-shadow: black 1px 1px;
+}
